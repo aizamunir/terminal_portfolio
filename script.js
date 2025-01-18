@@ -9,21 +9,18 @@ class TerminalPortfolio {
         // Available commands and their responses
         this.commands = {
             'help': 'Available commands: about, skills, projects, contact, clear, help',
-            'about': `Hi! I'm [Your Name], a [Your Title] based in [Your Location].
-                     \nI specialize in [Your Specialties].
+            'about': `Hi! I'm Aiza, a student learning web and app development based in Islamabad.
+                     \nI specialize in backend and frontend.
                      \nType 'skills' to see what I can do!`,
             'skills': `Technical Skills:
-                      \n• Frontend: HTML, CSS, JavaScript, React
-                      \n• Backend: Node.js, Python, SQL
-                      \n• Tools: Git, Docker, AWS`,
+                      \n• Frontend: React, React Native, JavaScript, HTML, CSS, TypeScript, Bootstrap, Node.js
+                      \n• Backend: Laravel, PHP, MySQL, phpMyAdmin, Python, SQL
+                      \n• Tools: Visual Studio Code, PyCharm, Android Studio, Git, GitHub, Postman, Kotlin`,
             'projects': `Recent Projects:
-                        \n1. Project One - Description here
-                        \n2. Project Two - Description here
-                        \n3. Project Three - Description here`,
+                        \n under development 👾`,
             'contact': `Get in touch:
-                       \n• Email: your.email@example.com
-                       \n• GitHub: github.com/yourusername
-                       \n• LinkedIn: linkedin.com/in/yourusername`,
+                       \n• Email: aizamunir@outlook.com
+                       \n• GitHub: https://github.com/aizamunir`,
             'clear': 'clear'
         };
 
