@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing Fira Code font - a modern monospace font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="buttons">
+                <div class="button close"></div>
+                <div class="button minimize"></div>
+                <div class="button maximize"></div>
+            </div>
+            <div class="title">terminal@portfolio</div>
+        </div>
+        <div class="terminal-content" id="terminal-content">
+            <div class="line">
+                <span class="prompt">visitor@portfolio:~$</span>
+                <span class="typed-text" id="welcome-text"></span>
+            </div>
+            <div id="commands-list"></div>
+        </div>
+        <div class="input-line">
+            <span class="prompt">visitor@portfolio:~$</span>
+            <input type="text" id="terminal-input" autofocus>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
