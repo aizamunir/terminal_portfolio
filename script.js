@@ -17,7 +17,7 @@ class TerminalPortfolio {
                       \n• Backend: Laravel, PHP, MySQL, phpMyAdmin, Python, SQL
                       \n• Tools: Visual Studio Code, PyCharm, Android Studio, Git, GitHub, Postman, Kotlin`,
             'projects': `Recent Projects:
-                        \n under development 👾`,
+                        \n under development... 👾`,
             'contact': `Get in touch:
                        \n• Email: aizamunir@outlook.com
                        \n• GitHub: https://github.com/aizamunir`,
