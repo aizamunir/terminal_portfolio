@@ -6,7 +6,7 @@ This project started as a simple practice to build a terminal-style portfolio â€
 
 ---
 
-## ðŸš€ Please Respect Open Source
+## Please Respect Open Source
 
 I built this for fun and learning. If you decide to fork or modify it, please:
 
