@@ -10,7 +10,7 @@ class AizaMunir {
         this.commands = {
             'help': 'Available commands: about, skills, projects, contact, clear, help',
             'about': `Hi! I'm Aiza, a A-level Student and an aspiring Full-Stack Developer.
-                     \nI specialize in Full Stack Development.
+                     \nI specialize in Web and App Development.
                      \nType 'skills' to see what I can do!`,
             'skills': `Technical Skills:
                       \n• Frontend: React, React  Native, JavaScript, HTML, CSS, TypeScript, Bootstrap, Node.js
