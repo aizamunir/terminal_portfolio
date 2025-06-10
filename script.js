@@ -1,4 +1,4 @@
-class TerminalPortfolio {
+class AizaMunir {
     constructor() {
         this.input = document.getElementById('terminal-input');
         this.commandsList = document.getElementById('commands-list');
@@ -19,8 +19,8 @@ class TerminalPortfolio {
             'projects': `Recent Projects:
                         \n under development... 👾`,
             'contact': `Get in touch:
-                       \n• Email: <a href="mailto:aizamunir@outlook.com">aizamunir@outlook.com</a>
-                       \n• GitHub: <a href="https://github.com/aizamunir" target="_blank">github.com/aizamunir`,
+                        \n• Email: <a href="mailto:aizamunir@outlook.com">aizamunir@outlook.com</a>
+                        \n• GitHub: <a href="https://github.com/aizamunir" target="_blank">github.com/aizamunir</a>`,
             'clear': 'clear'
         };
 
@@ -42,7 +42,7 @@ class TerminalPortfolio {
     }
 
     async typeWelcomeMessage() {
-        const welcomeText = "Welcome to my terminal portfolio. Type 'help' to see available commands.";
+        const welcomeText = "Welcome to my terminal portfolio. Type 'help' to see available commands. You may use Up and Down arrows through navigate previous commands.";
         const element = document.getElementById('welcome-text');
         await this.typeText(element, welcomeText);
     }
@@ -72,7 +72,7 @@ class TerminalPortfolio {
                 if (response) {
                     const responseDiv = document.createElement('div');
                     responseDiv.className = 'output';
-                    responseDiv.innerText = response;
+                    responseDiv.innerHTML = response; // Changed from innerText to innerHTML
                     outputDiv.appendChild(responseDiv);
                 } else {
                     const errorDiv = document.createElement('div');
@@ -87,7 +87,7 @@ class TerminalPortfolio {
         this.input.value = '';
         this.scrollToBottom();
     }
-
+    
     navigateHistory(direction) {
         if (direction === 'up' && this.historyIndex > 0) {
             this.historyIndex--;
@@ -108,4 +108,4 @@ class TerminalPortfolio {
 }
 
 // Initialize the terminal
-const terminal = new TerminalPortfolio();
+const terminal = new AizaMunir();
