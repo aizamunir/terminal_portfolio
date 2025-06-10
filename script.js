@@ -9,13 +9,13 @@ class AizaMunir {
         // Available commands and their responses
         this.commands = {
             'help': 'Available commands: about, skills, projects, contact, clear, help',
-            'about': `Hi! I'm Aiza, a student learning Web and App Development based in Islamabad.
+            'about': `Hi! I'm Aiza, a A-level Student and an aspiring Full-Stack Developer.
                      \nI specialize in Full Stack Development.
                      \nType 'skills' to see what I can do!`,
             'skills': `Technical Skills:
-                      \n• Frontend: React, React Native, JavaScript, HTML, CSS, TypeScript, Bootstrap, Node.js
+                      \n• Frontend: React, React  Native, JavaScript, HTML, CSS, TypeScript, Bootstrap, Node.js
                       \n• Backend: Laravel, PHP, MySQL, phpMyAdmin, Python, SQL
-                      \n• Tools: Visual Studio Code, PyCharm, Android Studio, Git, GitHub, Postman, Kotlin`,
+                      \n• Tools: Visual Studio Code, Android Studio, Git, GitHub, Postman`,
             'projects': `Recent Projects:
                         \n under development... 👾`,
             'contact': `Get in touch:
