@@ -50,4 +50,6 @@ Unauthorized commercial use or copying may result in legal action.
 
 ---
 
+⭐ Star this repository if you find it helpful!
+
 enjoy<3
